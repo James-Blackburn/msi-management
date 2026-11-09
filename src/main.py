@@ -22,7 +22,7 @@ class MSIManagementApplet:
             QStyle.StandardPixmap.SP_ComputerIcon
         )
         self.tray.setIcon(icon)
-        self.tray.setToolTip("Cooler Boost Applet")
+        self.tray.setToolTip("MSI Management Applet")
 
         # Define Dropdown menu
         self.menu = QMenu()

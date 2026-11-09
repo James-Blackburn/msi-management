@@ -20,7 +20,7 @@ autostart_dir.mkdir(parents=True, exist_ok=True)
 desktop_file = autostart_dir / "msi-management.desktop"
 desktop_file.write_text(f"""[Desktop Entry]
 Type=Application
-Name=MSI CPU & Fan Applet
+Name=MSI Management Applet
 Comment=Python background tray applet for MSI CPU and Fan management
 Exec={python_path} {app_path}
 Terminal=false
